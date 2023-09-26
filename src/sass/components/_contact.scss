@@ -1,0 +1,103 @@
+.contactSec {
+    width: 100%;
+    border: 2px solid #393838; 
+    @include flexrow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 4rem 0;
+
+    #contactCont {
+        // width: 800px;
+        // height: 100%;
+        border: 1px solid $dark; 
+        display: flex;
+        
+        .contactForm {
+            width: 50%;
+            // border: 2px solid green; 
+            padding: 2rem;
+            padding-top: 2rem ;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+    
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+            label {
+                font-size: 1.1rem;
+                font-weight: 600;
+                // border: 1px solid green;
+            }
+            input {
+                width: 100%;
+                font-size: 1.1rem;
+                padding: 0.8rem 1.2rem;
+                margin-top: 0.5rem;
+                margin-bottom: 3rem;
+                border: none;
+                outline: none;
+                border-bottom: 2px solid #000;
+                // border: 1px solid blue;
+            }
+            textarea {
+                width: 100%;
+                font-size: 1.1rem;
+                padding: 0rem 1.2rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                border: none;
+                outline: none;
+                border-bottom: 2px solid #000;
+                // border: 1px solid blue;
+                
+            }
+            .checkBox{
+                @include flexrow;
+                justify-content: start;
+                align-items: center;
+                margin-top: 1rem;
+                // border: 1px solid blue;
+    
+                #tnc{
+                    width: 1rem;
+                    margin-right: 0.5rem;
+                }
+                #checkLabel{
+                    display:inline-block;
+
+                    a{
+                        color: $grey;
+                    }
+                }
+            }
+            #submitBtn{
+                font-weight: bold;
+                background-color: #378cb3;
+                color: #fff;
+                margin-top: 2rem;
+                border-bottom: 0;
+                cursor: pointer;
+                // border: 2px solid var(--orange);
+                // background-color: $dark;
+            }
+        }
+        .mapBox{
+            width: 50%;
+            padding: 2rem;
+            .contactMap{
+                width: 100%;
+                // height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+

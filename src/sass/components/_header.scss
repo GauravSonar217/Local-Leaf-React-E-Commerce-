@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  background-color: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  // border: 1px solid red;
+  background-color: $white;
+
+  #header {
+    @include flexrow;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .logoBox {
+      cursor: pointer;
+      // border: 1px solid blue;
+      img {
+        width: 6.5rem;
+      }
+    }
+    .searchBox {
+      @include flexrow;
+      border-radius: 2rem;
+      border: 1px solid #9b9999;
+      margin-left: 8.5rem;
+      // margin-right: 0.8rem;
+      padding-left: 1rem;
+      input {
+        // border-radius: 2rem;
+        width: 30rem;
+        font-size: 1.1rem;
+        border: none;
+        outline: none;
+        padding: 0.8rem 1rem;
+      }
+    } 
+  }
+}

@@ -1,0 +1,55 @@
+.cartPage {
+  width: 100%;
+  border: 1px solid red;
+
+  #cart {
+    height: 100vh;
+    border: 1px solid blue;
+    padding-top: 2rem;
+
+    .cartItemCont {
+      height: 90%;
+      padding-top: 1rem;
+      border: 1px solid blue;
+
+      .cartheading{
+        width: 100%;
+        height: 3rem;
+        border: 1px solid red;
+        @include flexrow;
+        justify-content: space-between;
+      }
+      .cartBox {
+        width: 100%;
+        height: 12vh;
+        border: 1px solid lightgreen;
+        @include flexrow;
+        justify-content: space-between;
+        .itemBox{
+            width: 30%;
+            height: 100%;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+            picture{
+                width: 25%;
+                height: 100%;
+                border: 1px solid red;
+                margin-right: 1rem;
+                img{
+                    // width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .productDetailBox{
+            width: 75%;
+            height: 100%;
+            border: 1px solid blue;
+            @include flexrow;
+            justify-content: space-between;
+        }
+      }
+    }
+  }
+}

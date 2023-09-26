@@ -1,0 +1,101 @@
+// main{
+//     // padding-top: 13rem;
+//     // border: 1px solid red;
+// }
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  // border: 1px solid red;
+}
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.04rem;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  color: $black;
+  text-decoration: none;
+}
+i {
+  margin-right: 0.8rem;
+}
+
+@mixin flexrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin btnStyle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 1px solid $black;
+  transition: all 0.5s;
+  background-color: $white;
+}
+
+.ratingBox{
+  width: 100%;
+  margin-bottom: 1rem;
+  // border: 1px solid red;
+  @include flexrow;
+  justify-content: start;
+  p{
+    margin-left: 0.3rem;
+  }
+  i{
+    margin-right: 0.1rem;
+    color: #e7e70c;
+  }
+}
+
+.sectionHead {
+  width: 100%;
+  @include flexrow;
+  justify-content: space-between;
+  // border: 1px solid blue;
+  a {
+    font-size: 1.2rem;
+    color: $black;
+    border-bottom: 1px solid $black;
+  }
+}
+
+.productBoxCont {
+  width: 100%;
+  // height: 80vh;
+  padding-top: 2rem;
+  // border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.8rem;
+  // justify-content: space-between;
+}
+
+.counterBox {
+  width: 9rem;
+  height: 100%;
+  margin-left: 1rem;
+  @include flexrow;
+  flex-direction: row;
+  justify-content: space-between;
+  // border: 1px solid blue;
+  span {
+    font-size: 1.5rem;
+  }
+  div {
+    width: 40px;
+    height: 100%;
+    border: 1px solid $dark;
+    @include flexrow;
+    cursor: pointer;
+    i {
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+}
