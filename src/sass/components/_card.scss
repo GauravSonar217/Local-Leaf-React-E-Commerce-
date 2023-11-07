@@ -1,22 +1,24 @@
 .productBox {
-  width: 280px;
-  padding: 1rem;
+  // width: 350px;
+  // padding: 1rem ;
+  min-height: 380px;
   // border: 2px solid $mainColor;
   cursor: pointer;
-  margin-bottom: 1rem;
+  // margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
   .productImgbox {
+    padding: 1rem;
     width: 100%;
-    height: 220px;
+    height: 250px;
     // border: 2px solid #2e05fd;
     @include flexrow;
 
     img {
       // width: 100%;
-      height: 95%;
-      transition: 0.5s;
+      height: 100%;
+      transition: all ease 0.5s;
     }
     &:hover img {
       transform: scale(1.1);
@@ -24,17 +26,20 @@
   }
   .productTextbox {
     width: 100%;
-    // height: 50%;
-    // border: 2px solid #2e05fd;
-    padding-top: 1.5rem;
-
+    // border: 1px solid red;
+    text-align: center;
+    padding: 0 1rem;
+    @include flexrow;
+    flex-direction: column;
+    align-items: center;
     h3 {
       font-size: 1rem;
       margin-bottom: 0.5rem;
     }
     h2 {
       font-size: 1.2rem;
-      // margin-bottom: 1rem;
+      display: inline;
+      margin-bottom: 0.5rem;
     }
   }
   .btnBox {

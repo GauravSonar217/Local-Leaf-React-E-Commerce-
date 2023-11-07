@@ -16,7 +16,7 @@ function Rating(props) {
     <React.Fragment>
       <div className={props.class}>
         <h4>{ratingStar}</h4>
-        <p>({props.reviews})</p>
+        <p>({props.reviews}) review</p>
       </div>
     </React.Fragment>
   )

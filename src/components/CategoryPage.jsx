@@ -33,7 +33,8 @@ function CategoryPage() {
         }
     };
 
-    let categoryOneData = myData.filter((product) => product.category === myCategory);
+    let categoryOneData = myData.filter((product) => product.category.name === myCategory);
+    // console.log(categoryOneData);
 
     categoryOneData.sort(sortingProducts);
 
@@ -50,7 +51,7 @@ function CategoryPage() {
                                     <option value="Popularity">Popularity</option>
                                     <option value="lowToHigh">Price -- Low to High</option>
                                     <option value="highToLow">Price -- High to Low</option>
-                                    <option value="aToz">a to z</option>
+                                    <option value="aToz">Alphabetically A to Z</option>
                                 </select>
                             </form>
                         </div>

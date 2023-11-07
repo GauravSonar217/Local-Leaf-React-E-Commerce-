@@ -1,0 +1,78 @@
+.cartBox {
+  width: 100%;
+  border: 1px solid $dark;
+  @include flexrow;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  
+  .itemPicBox {
+    width: 30%;
+    height: 25vh;
+    padding: 0.8rem;
+    // border: 1px solid #03f924;
+    @include flexrow;
+    img {
+      height: 100%;
+    }
+  }
+  .cartDetailBox {
+    // max-width: 65%;
+    width: 68%;
+    height: 100%;
+    border-left: 1px solid $dark;
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    .itemNameBox {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: start;
+      // border: 1px solid #37ff00;
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    .pricecont {
+      text-align: left;
+      // border: 1px solid blue;
+      p {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .btnBox {
+      width: 100%;
+      @include flexrow;
+      justify-content: space-between;
+
+      .counterCont {
+        // display: flex;
+        // border: 1px solid blue;
+        width: 25%;
+
+        .decrement {
+          width: 40px;
+        }
+        .increment {
+          width: 40px;
+        }
+        // border: 1px solid yellow;
+      }
+      .removeItem {
+        @include flexrow;
+        // border: 1px solid blue;
+        padding: 0.5rem;
+        cursor: pointer;
+        i {
+          font-size: 1.2rem;
+          color: $red;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

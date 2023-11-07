@@ -1,0 +1,122 @@
+.loginSec {
+  width: 100%;
+  height: 150vh;
+  // border: 1px solid #00ff4c;
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  //   background-image: url(../images/contactBackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+
+  .registration {
+    width: 600px;
+    height: 750px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #fff;
+    // border: 1px solid red;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    form {
+      width: 100%;
+      //   border: 1px solid blue;
+      padding: 0 2.5rem;
+      position: relative;
+
+      .divider {
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+        // border: 1px solid red;
+      }
+      .divider-line {
+        flex: 5;
+        border-bottom: 1px solid #000;
+      }
+      .divider-text {
+        padding: 0 10px;
+      }
+      label {
+        font-size: 1.2rem;
+        margin-bottom: 5rem;
+      }
+      input {
+        width: 100%;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 0.8rem;
+      }
+      .queryBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        .forgetlink {
+          font-size: 1.1rem;
+          color: red;
+          text-align: right;
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        position: absolute;
+        top: 307px;
+        right: 60px;
+        margin-left: 1rem;
+        cursor: pointer;
+      }
+      .tnc {
+        display: inline;
+        font-size: 1.1rem;
+
+        #check {
+          width: 1rem;
+          margin-right: 0.5rem;
+        }
+      }
+      .googleSignin {
+        margin: 1rem auto;
+        width: 100%;
+        border-radius: 0.8rem;
+        img {
+          width: 1.5rem;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+// .divider {
+//   text-align: center;
+//   line-height: 0.1em;
+// }
+
+// .divider span {
+//   background-color: #fff;
+//   padding: 0 10px;
+// }
+
+// .divider:before,
+// .divider:after {
+//   content: "";
+//   display: inline-block;
+//   width: 70%;
+//   margin: 0 10px 0 -55%;
+//   vertical-align: middle;
+//   border-top: 1px solid #000;
+// }

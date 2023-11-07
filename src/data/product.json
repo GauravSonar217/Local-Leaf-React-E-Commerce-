@@ -3,312 +3,400 @@
     "id": 0,
     "name": "Britannia Gobbles Choco Chill Cake",
     "price": "20",
-    "rating":"3.5",
+    "rating": "3.5",
     "review": 8,
     "quantity": "70 g",
     "img": "../images/bread-and-bakery/1.png",
-    "category": "Bread & Bakery",
+    "category": {
+      "name": "Bread & Bakery",
+      "image": "../images/bread-and-bakery/3.png"
+    },
     "description": "<p>Britannia Gobbles Choco Chill Cake is one of the most loved treats.</p><p>Enjoy it with your favourite beverage and make tea-time more fun! The best part is that you are spoilt for choice due to the variety of flavours. So go ahead, buy this product online today!</p>"
   },
   {
     "id": 1,
     "name": "LA Americana Gourmet Eggless Butter Scotch Slice Cake",
     "price": "149",
-    "rating":"4",
+    "rating": "4",
     "review": 15,
     "quantity": "200 g",
     "img": "../images/bread-and-bakery/3.png",
-    "category": "Bread & Bakery",
-    "bestSeller":true,
+    "category": {
+      "name": "Bread & Bakery",
+      "image": "../images/bread-and-bakery/3.png"
+    },
     "description": "<p>The La Americana Butterscotch Eggless Cake is moist,cream free cakes. This cake is deliciously fluffy and healthy.</p><p>This cake is prepared with the basic ingredients like wheat flour, cashews and sugar. It has a shelf life of 30 days.</p><p>The La Americana Butterscotch eggless Cake is a light and fluffy cake made using only the best butterscotch flavor. The prefect choice for birthdays, weddings and gifting .</p>"
   },
   {
     "id": 2,
     "name": "BAKITO'S JEERA Biscuits",
     "price": "199",
-    "rating":"4",
+    "rating": "4",
     "review": 4,
     "quantity": "350 g",
     "img": "../images/bread-and-bakery/4.png",
-    "category": "Bread & Bakery",
+    "category": {
+      "name": "Bread & Bakery",
+      "image": "../images/bread-and-bakery/3.png"
+    },
     "description": "<p>salty taste jeera cookies freshly baked and crispy</p>"
   },
   {
     "id": 3,
     "name": "BAKITO'S Atta Cookies",
     "price": "199",
-    "rating":"3",
+    "rating": "3",
     "review": 0,
     "quantity": "350 g",
     "img": "../images/bread-and-bakery/5.png",
-    "category": "Bread & Bakery",
+    "category": {
+      "name": "Bread & Bakery",
+      "image": "../images/bread-and-bakery/3.png"
+    },
     "description": "<p>Excellent taste blended with pure ingredients freshly baked and crispy in bites.</p>"
   },
   {
     "id": 4,
     "name": "Britannia Toastea Premium Bake Rusk",
     "price": "29",
-    "rating":"4.7",
+    "rating": "4.7",
     "review": 22,
     "quantity": "182 g",
     "img": "../images/bread-and-bakery/2.png",
-    "category": "Bread & Bakery",
+    "category": {
+      "name": "Bread & Bakery",
+      "image": "../images/bread-and-bakery/3.png"
+    },
     "description": "<p>Britannia Toastea Premium Bake Rusk 182 g is a twice-baked dried bread, also referred to as the 'toast biscuit'. You can have these rusks as it is or along with your tea or coffee.</p><p>You can also spread some butter, jam or cheese over them and make an interesting snack of it. These rusks are prepared using premium quality ingredients to give you an authentic taste.</p>"
   },
   {
     "id": 5,
     "name": "Amul Butter",
     "price": "265",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 72,
     "quantity": "500 g",
     "img": "../images/dairy-and-eggs/1.png",
-    "category": "Dairy & Eggs",
+    "category": {
+      "name": "Dairy & Eggs",
+      "image": "../images/dairy-and-eggs/1.png"
+    },
+    "bestSeller": true,
     "description": "<p>Who doesn't like a chunk of creamy, velvety, smooth and mouth-watering butter? Made with fresh ingredients, Amul Butter is a multi-purpose butter that can be used as a spread on bread, paratha, roti, naan and sandwiches.</p><p>It also makes an excellent topping for Pav-bhaji, dal, soups, salads, rice as well as a great cooking medium for Paneer Butter Masala, Dal Makhni and a variety of delightful recipes. </p>"
   },
   {
     "id": 6,
     "name": "Nutralite Rich in Omega3 & Vitamins Vegetable Fat Spread ",
     "price": "89",
-    "rating":"4.7",
+    "rating": "4.7",
     "review": 22,
     "quantity": "182 g",
     "img": "../images/dairy-and-eggs/2.png",
-    "category": "Dairy & Eggs",
+    "category": {
+      "name": "Dairy & Eggs",
+      "image": "../images/dairy-and-eggs/1.png"
+    },
     "description": "<p>Who doesn't like a chunk of creamy, velvety, smooth, and mouth-watering vegetable fat spread? Made with fresh ingredients, Nutralite Rich in Omega3 & Vitamins Vegetable Fat Spread is a multi-purpose vegetable fat spread that can be used as a spread on bread, paratha, roti, naan, and sandwiches.</p><p> It also makes an excellent topping for pav-bhaji, dal, soups, salads, and rice as well as a great cooking medium for butter paneer, dal makhani, and a variety of delightful recipes.</p>"
   },
   {
     "id": 7,
     "name": "Amul Elaichi Shrikhand",
     "price": "99",
-    "rating":"4",
+    "rating": "4",
     "review": 50,
     "quantity": "500 g",
     "img": "../images/dairy-and-eggs/3.png",
-    "category": "Dairy & Eggs",
+    "category": {
+      "name": "Dairy & Eggs",
+      "image": "../images/dairy-and-eggs/1.png"
+    },
     "description": "<p>Smooth and velvety spoonfuls of Amul Elaichi Shrikhand offers a taste that is unmatchable.</p><p>With the fragrant and flavourful cardamom enriching the creamy layers, Amul Shrikhand Elaichi makes for a dessert that will be definitely sought-after.</p>"
   },
   {
     "id": 8,
     "name": "Amulya Dairy Whitener ",
     "price": "224",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 10,
     "quantity": "500 g",
     "img": "../images/dairy-and-eggs/4.png",
-    "bestSeller":true,
-    "category": "Dairy & Eggs",
+    "bestSeller": true,
+    "category": {
+      "name": "Dairy & Eggs",
+      "image": "../images/dairy-and-eggs/1.png"
+    },
     "description": "<p>There's no greater joy than finding a milk powder that works as a healthy substitute for milk with zero compromises in the natural taste.</p><p> Amulya Dairy Whitener made from wholesome milk adds the right texture and taste to your tea, cakes, cookies, sweets, and smoothies. </p>"
   },
   {
     "id": 9,
     "name": "Gowardhan Pure Cow Ghee",
     "price": "685",
-    "rating":"4.2",
+    "rating": "4.2",
     "review": 20,
     "quantity": "1 L",
     "img": "../images/dairy-and-eggs/5.png",
-    "category": "Dairy & Eggs",
+    "category": {
+      "name": "Dairy & Eggs",
+      "image": "../images/dairy-and-eggs/1.png"
+    },
     "description": "<p>Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking.</p><p>Gowardhan Pure Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving.</p>"
   },
   {
     "id": 10,
     "name": "Kiwi Imported ",
     "price": "142",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 12,
     "quantity": "3 pcs",
     "img": "../images/fruits-and-vegetables/1.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
+    "bestSeller": true,
     "description": "<p>Kiwis are an extremely versatile fruit. On their own they make an excellent addition to your breakfast, not to mention that they're very healthy for you! For a treat, top your kiwi with whipped cream and chopped nuts for a tasty dessert that's sure to please friends and family.</p><p> Kiwi is also the perfect base for smoothies; just throw in some yogurt, fruit chunks, some honey, and some ice cubes for some delicious refreshment!</p>"
   },
   {
     "id": 11,
     "name": "Pomegranate Economy",
     "price": "199",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 14,
     "quantity": "6 pcs",
     "img": "../images/fruits-and-vegetables/2.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>Pomegranates belongs to the Berry family and has an upper skin that's thick and inedible.</p><p>However, the tiny, juicy seeds inside are the ones that are edible and delicious. Buy Pomegranate Economy 6 pcs (Pack) online now.</p>"
   },
   {
     "id": 12,
     "name": "Watermelon Kiran Big",
     "price": "65",
-    "rating":"3.2",
+    "rating": "3.2",
     "review": 44,
     "quantity": "1 pc",
     "img": "../images/fruits-and-vegetables/3.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
+    "bestSeller": true,
     "description": "<p>This summer, get creative with your Watermelon! While cutting the Watermelon into thick slices and serving it with salt is the standard way to eat Watermelon, but there are plenty of other options for getting creative with this sweet and hydrating fruit.</p><p>Try a refreshing and unexpected pairing like Watermelon and salty feta cheese in a salad. Make some chilled soup using fresh Watermelon or pick up a frozen smoothie to keep you cool.</p>"
   },
   {
     "id": 13,
     "name": "French Beans",
     "price": "35",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 6,
     "quantity": "500 g",
     "img": "../images/fruits-and-vegetables/4.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>French Beans are firmer and less stringy than common green beans, with a longer, creamier pod that's delicious when prepared just like green beans.</p><p> These tiny pods are sweet and tender, with a thin skin that can be easily removed before eating.</p><p>They make an ideal addition to any side dish or salad, but also stand well on their own.</p>"
   },
   {
     "id": 14,
     "name": "Spinach (Paalak) 1 bunch",
     "price": "12",
-    "rating":"4",
+    "rating": "4",
     "review": 20,
     "quantity": "300 g",
     "img": "../images/fruits-and-vegetables/5.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>Spinach is a leafy green flowering plants that has its roots in Asia. It is high on Iron and Proteins and promotes hair growth.</p><p> It is also known to be rich in Vitamins, Folic Acid and Calcium. Buy Spinach (Paalak) 1 bunch (Approx 100 g - 300 g) online now.</p>"
   },
   {
     "id": 15,
     "name": "Cauliflower 1 pc",
     "price": "34",
-    "rating":"5",
+    "rating": "5",
     "review": 22,
     "quantity": "1 kg",
     "img": "../images/fruits-and-vegetables/6.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>Cauliflower can be enjoyed raw or cooked. Raw cauliflower makes a great snack when dipped in hummus or another healthy vegetable dip.</p><p>Your favourite pasta dish can be quickly upgraded to a healthier alternative with the addition of fresh cauliflower.</p><p>Cauliflower is also delicious when roasted, steamed, or sauteed with your favourite spices. Try adding some grilled bread slices to the top for even more awesome flavours!</p>"
   },
   {
     "id": 16,
     "name": "Tomato",
     "price": "15",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 74,
     "quantity": "1 kg",
     "img": "../images/fruits-and-vegetables/7.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>Fresh, and delicious tomatoes are a summertime favourite. Tomatoes are perfect for sauces and salsas, or try marinating them in herbs and olive oil for an easy appetizer.</p><p>Enjoy a delicious cup of tomato soup on a lazy afternoon or simply use it as a pizza topping on an exciting evening watching your favourite sports.</p>"
   },
   {
     "id": 17,
     "name": "Potato",
     "price": "28",
-    "rating":"3",
+    "rating": "3",
     "review": 78,
     "quantity": "1 kg",
     "img": "../images/fruits-and-vegetables/8.png",
-    "category": "Fruits & Vegetables",
+    "category": {
+      "name": "Fruits & Vegetables",
+      "image": "../images/fruits-and-vegetables/9.png"
+    },
     "description": "<p>Potato is a root vegetable and the most versatile of all. It is widely used across Indian kitchens paired with numerous other vegetables for preparation of several delicacies.</p><p> Be it Brinjal, Cauliflower, Tomato, Onion or be it Soyabean Chunks or the Spinach clan- Potatoes goes with all for delicious cuisines. Buy Potato per kg online now.</p>"
   },
   {
     "id": 18,
     "name": "Butterfly Rapid Induction Base Rapid IB Kadhai",
     "price": "1299",
-    "rating":"4",
+    "rating": "4",
     "review": 14,
     "quantity": "2.6 L",
     "img": "../images/home-and-kitchen/2.png",
-    "category": "Home & Kitchen",
+    "category": {
+      "name": "Home & Kitchen",
+      "image": "../images/home-and-kitchen/6.png"
+    },
     "description": "<p>Butterfly Non Stick series are designed and manufactured to withstand the rigors of a professional kitchen and easily adapt to home and non-commercial use.</p><p> Ideal for all cooking purpose, non-stick series comes with heavy-gauge aluminium that distributes heat quickly and evenly, providing effortless cooking and cleaning. The bakelite handle is riveted for added support, soft-grip for versatility.</p><p>All Butterfly Non Stick are PFOA-free for healthier cooking with less fat and easy release for better cleaning.</p>"
   },
   {
     "id": 19,
     "name": "BAJAJ New Shakti 3HD HA Handi 3 L Induction Bottom Pressure Cooker",
     "price": "1399",
-    "rating":"5",
+    "rating": "5",
     "review": 10,
     "quantity": "3 L",
     "img": "../images/home-and-kitchen/1.png",
-    "category": "Home & Kitchen",
+    "category": {
+      "name": "Home & Kitchen",
+      "image": "../images/home-and-kitchen/6.png"
+    },
     "description": "<p>Improve and master your culinary abilities with the Induction Base Pressure cooker from Bajaj.The tough gasket system helps in releasing pressure. The hard anodised cooker is scratch-resistant, stick-resistant and stain-resistant.</p><p>his black colour classy looking pressure cooker cooks food faster than stovetop methods. This cooker is compatible with any Induction cooktop. The 3-litre capacity pressure cooker is a perfect choice to cook amazing food for your family and friends.</p>"
   },
   {
     "id": 20,
     "name": "Carbon Steel Knife Set Ultra Sharp Cooking Knife for Kitchen, Black",
     "price": "999",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 3,
     "quantity": "Set of 3",
     "img": "../images/home-and-kitchen/4.png",
-    "category": "Home & Kitchen",
-    "bestSeller":true,
+    "category": {
+      "name": "Home & Kitchen",
+      "image": "../images/home-and-kitchen/6.png"
+    },
+    "bestSeller": true,
     "description": "<p>A kitchen knife is any knife that is intended to be used in food preparation.</p><p> While much of this work can be accomplished with a few general-purpose knives notably a large chef's knife, a tough cleaver, a small paring knife and some sort of serrated blade (such as a bread knife or serrated utility knife) there are also many specialized knives that are designed for specific tasks.</p>"
   },
   {
     "id": 21,
     "name": "NIRLON Induction Base Gas Friendly Tapper Fry Pan",
     "price": "279",
-    "rating":"4",
+    "rating": "4",
     "review": 8,
     "quantity": "1 L",
     "img": "../images/home-and-kitchen/5.png",
-    "category": "Home & Kitchen",
+    "category": {
+      "name": "Home & Kitchen",
+      "image": "../images/home-and-kitchen/6.png"
+    },
+    "bestSeller": true,
     "description": "<p>There's hardly any delicacy which can be made without oil but oily foods may cause several health issues. The best solution is to shift to a nonstick cookware whereby you can enjoy the same dish with little oil.</p><p>Compatible for gas stove top, the non-stick coating enables the use of metal ladels and spoons without leaving any scratch mark.The taper pan has a nonstick coating on the aluminium base which requires little oil, doesn't allow food to stick to the surface and allows even distribution of heat.</p>"
   },
   {
     "id": 22,
     "name": "All Four Premium Nonstick Kitchen Spoons for Cooking Set of 4 Kitchen Tool Set",
     "price": "485",
-    "rating":"3.5",
+    "rating": "3.5",
     "review": 5,
     "quantity": "Pack of 4",
     "img": "../images/home-and-kitchen/3.png",
-    "category": "Home & Kitchen",
+    "category": {
+      "name": "Home & Kitchen",
+      "image": "../images/home-and-kitchen/6.png"
+    },
     "description": "<p>Crafted skillfully to perfection with a natural grain pattern. Elegant for both cooking and serving purposes.</p> <p>It can be used to mix rich food without any fear of breakage. It can be used for both small and large quantities of ingredients. Ideal for mixing without hassle.</p> <p>Non-toxic, free from the inclusion of all harmful chemicals. It is absolutely safe to use and does not leach toxic chemicals in to your food while cooking as compared to other alternatives.</p>"
   },
   {
     "id": 23,
     "name": "Haldiram's Bhujia Sev",
     "price": "260",
-    "rating":"5",
+    "rating": "5",
     "review": 58,
     "quantity": "1 kg",
     "img": "../images/snacks-and-beverages/5.png",
-    "category": "Snacks & Beverages",
+    "category": {
+      "name": "Snacks & Beverages",
+      "image": "../images/snacks-and-beverages/5.png"
+    },
     "description": "<p>Bhujia Sev a crunchy aloo snack made from mildly spicy potato and gram flour. This is a healthier alternative to eating potato chips and is a staple part of the snacks selection in any Indian household.Bhujia sev can be added to salads or Bhel to make the dish more tasty and tempting."
   },
   {
     "id": 24,
     "name": "Farmley Peri Peri Roasted & Flavored Makhana Jar",
     "price": "275",
-    "rating":"4",
+    "rating": "4",
     "review": 30,
     "quantity": "2x90 g",
     "img": "../images/snacks-and-beverages/4.png",
-    "category": "Snacks & Beverages",
-    "bestSeller":true,
+    "category": {
+      "name": "Snacks & Beverages",
+      "image": "../images/snacks-and-beverages/5.png"
+    },
+    "bestSeller": true,
     "description": "<p>Farmley, source all the nuts & dry fruits directly from the farms which are hygienically packed in a HACCP certified unit. Flavored with handpicked Peri-Peri, and topped with the most delicious ingredient, Farmley's Roasted Makhana is here to greet you into the world of SUPERFOOD snacking.</p><p> Makhanas are a great source of vegan protein and ideal snacking option for those looking to balance weight. Every bite of this roasted Makhana has perfect crunchiness and yummy flavour of Peri-Peri that blends perfectly in your taste buds.</p>"
   },
   {
     "id": 25,
     "name": "Coca-Cola Original Taste Soft Drink PET Bottle",
     "price": "78",
-    "rating":"4.7",
+    "rating": "4.7",
     "review": 15,
     "quantity": "2.25 L",
     "img": "../images/snacks-and-beverages/1.png",
-    "category": "Snacks & Beverages",
+    "category": {
+      "name": "Snacks & Beverages",
+      "image": "../images/snacks-and-beverages/5.png"
+    },
     "description": "<p>Be it with pizzas, burgers, or biryani, meals seem incomplete without a bottle of chilled and bubbling Coca-Cola. This flavoured refreshing drink is one of the most loved and popular drinks that brings enjoyment in every sip and it gets all the more better when shared with your loved ones.</p><p><strong>A Taste that Refreshes.</strong></p><p>This delicious, uplifting, and refreshing soft drink is one of the best known and leading cola drinks in the world. It was established in 1886 and has been a popular cola drink in India for decades.</p>"
   },
   {
     "id": 26,
     "name": "Maaza Mango",
     "price": "66",
-    "rating":"4.2",
+    "rating": "4.2",
     "review": 20,
     "quantity": "1.2 L",
     "img": "../images/snacks-and-beverages/3.png",
-    "category": "Snacks & Beverages",
+    "category": {
+      "name": "Snacks & Beverages",
+      "image": "../images/snacks-and-beverages/5.png"
+    },
     "description": "<p>Enjoy the juicy pulp of mangoes anytime, anywhere with the Maaza mango drink from the Coca-Cola Company.This universally loved drink is made from real pulp of handpicked Alphonso mangoes.</p> <p>Enjoy this sweet,rich and thick mango fruit drink that comes infused with delightful Alphonso mangoes.</p><p><strong>Ready-to-serve Mango Drink</strong></p><p>This drink, that is best served chilled, is made from actual mango pulp of Alphonso mangoes to give you an authentic and refreshing experience.</p>"
   },
   {
     "id": 27,
     "name": "Sprite PET Bottle",
     "price": "35",
-    "rating":"4.5",
+    "rating": "4.5",
     "review": 35,
     "quantity": "750 ml",
-    "img":"../images/snacks-and-beverages/2.png",
-    "category": "Snacks & Beverages",
+    "img": "../images/snacks-and-beverages/2.png",
+    "category": {
+      "name": "Snacks & Beverages",
+      "image": "../images/snacks-and-beverages/5.png"
+    },
+    "bestSeller": true,
     "description": "<p>Let the lemon-flavour of the Sprite soft drink quench your thirst and refresh your taste buds instantly. This refreshing beverage complements meals, and it also gives you instant energy to sail through the hot summer days.</p><p>This lemon-flavoured drink has a clean and crisp taste.</p>"
   }
 ]

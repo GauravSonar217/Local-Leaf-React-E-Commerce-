@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <div className="container" id='footer'>
                     <div className="footerLinkCont">
-                        <div className="linkBox">
+                        <div className="linkBox">           
                             <h2>local</h2>
                             <p>Fresh products from local producers, delivered directly to your front door, daily.</p>
                             <div className="footerIconBox"></div>

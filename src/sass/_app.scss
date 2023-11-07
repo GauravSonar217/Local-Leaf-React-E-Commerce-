@@ -4,14 +4,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // font-family: gilroy;
   font-family: "DM Sans", sans-serif;
   scroll-padding-top: 215px;
+  color: $secondaryColor;
+  &::selection{
+    background-color: $mainColor;
+    color: $secondaryColor;
+  }
 }
 html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  background-color: $secondaryColor;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $mainColor;
+  border-radius: 2rem;
+}
+
 main{
-  padding-top: 10.7rem;
+  padding-top: 182px;
 }
 

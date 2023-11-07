@@ -16,7 +16,11 @@ function ProductPage() {
     const [amount, setAmount] = useState(1);
 
     useEffect(() => {
-        getSingleProduct(id);
+         getSingleProduct(id);
+        // let sp =  getSingleProduct(id);
+        // dispatch({ type: "SET_SINGLE_PRODUCT", payload: sp });
+        // console.log(singleProduct);
+        // window.location.reload();
     }, []);
 
     const { name, img, quantity, price, rating, review } = singleProduct;
@@ -31,7 +35,6 @@ function ProductPage() {
             setAmount(amount - 1);
         }
     }
-
     const relativeProducts = myData.filter((product) => {
         if (product.id != id)
             return product.category === category;
@@ -63,7 +66,7 @@ function ProductPage() {
                         </div>
                         <div className="btnBox2">
                             <HashLink to={`/cartPage/#cartSec`} onClick={() => addToCart(id, amount, singleProduct)} ><Button class="addToCart" text="Add to Cart"></Button></HashLink>
-                            <Button class="addToCart" text="Buy Now"></Button>
+                            <Button class="normalBtn" text="Buy Now"></Button>
                         </div>
                     </div>
                 </div>

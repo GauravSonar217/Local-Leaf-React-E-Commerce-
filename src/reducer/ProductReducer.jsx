@@ -61,7 +61,6 @@ const ProductReducer = (state, action) => {
 
         case "UPDATE_FILTERS_VALUE":
             const input = action.payload;
-
             return {
                 ...state,
                 filters: {
@@ -77,6 +76,9 @@ const ProductReducer = (state, action) => {
             const { text } = state.filters;
 
             let tempFilterData = tempFilterProduct.filter((product) => {
+                // {
+                //     (product.name.toLowerCase().startsWith(text)) ? product : <p>No Product Found</p>;
+                // }
                 if (product.name.toLowerCase().startsWith(text)) {
                     return product;
                 } else {

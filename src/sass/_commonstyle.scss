@@ -20,9 +20,25 @@ ul {
 a {
   color: $black;
   text-decoration: none;
+  transition: all ease 0.4s;
 }
-i {
-  margin-right: 0.8rem;
+
+@mixin underlineEffect {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    left: 0;
+    bottom: -4px;
+    height: 4px;
+    background-color: transparent;
+    // border: 1px solid $mainColor;
+    transition: all ease 0.5s;
+  }
+  &:hover::after {
+    width: 100% !important;
+    background-color: $mainColor;
+  }
 }
 
 @mixin flexrow {
@@ -33,21 +49,26 @@ i {
 @mixin btnStyle {
   font-size: 1.1rem;
   font-weight: 600;
-  border: 1px solid $black;
-  transition: all 0.5s;
+  border: 2px solid $secondaryColor;
+  transition: all ease 0.3s;
+  padding: 0.8rem;
   background-color: $white;
+  cursor: pointer;
+  &:active {
+    scale: 0.9;
+  }
 }
 
-.ratingBox{
-  width: 100%;
-  margin-bottom: 1rem;
+.ratingBox {
+  margin: 0 auto;
+  text-align: center;
   // border: 1px solid red;
   @include flexrow;
   justify-content: start;
-  p{
+  p {
     margin-left: 0.3rem;
   }
-  i{
+  i {
     margin-right: 0.1rem;
     color: #e7e70c;
   }
@@ -58,39 +79,38 @@ i {
   @include flexrow;
   justify-content: space-between;
   // border: 1px solid blue;
-  a {
-    font-size: 1.2rem;
-    color: $black;
-    border-bottom: 1px solid $black;
-  }
 }
 
 .productBoxCont {
   width: 100%;
   // height: 80vh;
   padding-top: 2rem;
-  // border: 1px solid blue;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(100px, auto);
+  // display: flex;
+  // flex-wrap: wrap;
+  // column-gap: 0.8rem;
   // justify-content: space-between;
 }
 
 .counterBox {
-  width: 9rem;
+  // width: 10rem;
   height: 100%;
   margin-left: 1rem;
   @include flexrow;
-  flex-direction: row;
-  justify-content: space-between;
+  // flex-direction: row;
+  // justify-content: space-between;
   // border: 1px solid blue;
   span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin: 0 1.5rem;
   }
   div {
     width: 40px;
     height: 100%;
-    border: 1px solid $dark;
+    // border: 1px solid $dark;
     @include flexrow;
     cursor: pointer;
     i {

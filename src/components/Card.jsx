@@ -1,17 +1,11 @@
 import React from 'react'
 import Button from './Button'
-import { useNavigate } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import FormatPrice from "../helpers/FormatPrice"
 import Rating from './Rating';
 
 function Card(product) {
-  const { name, price, id, rating, review, quantity, img } = product;
-
-  // let navigate = useNavigate();
-  // const routeChange = () => {
-  //   let path = `/productPage/${id}/#productSec`;
-  //   navigate(path);
+  const { name, price, id, rating, review, img } = product;
 
   return (
     <React.Fragment>
@@ -21,17 +15,14 @@ function Card(product) {
             <img src={"../" + img} alt="" />
           </div>
           <div className="productTextbox">
-            <h3>{name} ({quantity})</h3>
-            <Rating class="ratingBox" stars={rating} reviews={review} />
+            <h3>{name}</h3>
             <h2><FormatPrice price={price} /></h2>
+            <Rating class="ratingBox" stars={rating} reviews={review} />
           </div>
         </div>
       </HashLink>
     </React.Fragment>
   )
 }
-
-
-
 
 export default Card

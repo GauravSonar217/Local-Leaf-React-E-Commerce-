@@ -1,0 +1,7 @@
+.profileSec{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    @include flexrow;
+    flex-direction: column;
+}

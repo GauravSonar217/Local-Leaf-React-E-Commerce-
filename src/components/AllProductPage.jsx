@@ -7,7 +7,7 @@ function AllProductPage() {
 
   const { filterProduct } = useProductContext();
 
-  let filterData = filterProduct;
+  
   return (
     <React.Fragment>
       <section className='allProducts' id='allProductSec'>
@@ -17,7 +17,7 @@ function AllProductPage() {
           </div>
           <div className="productBoxCont">
             {
-              filterData.map((product, id) => {
+              filterProduct.map((product, id) => {
                return <Card key={id} {...product} ></Card>
               })
             }

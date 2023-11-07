@@ -1,12 +1,12 @@
 nav {
   width: 100%;
-  border-top: 1px solid #9b9999;
+  border-top: 1px solid $secondaryColor;
   position: fixed;
-  top: 98px;
+  top: 110px;
   left: 0;
-  z-index: 10000;
+  z-index: 100000;
   background-color: $white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .13), 0 1px 1px 0 rgba(0, 0, 0, .11);
+  box-shadow: 0 2px 4px 0 #00000021, 0 1px 1px 0 rgba(0, 0, 0, 0.11);
   // border: 1px solid blue;
 
   #navbar {
@@ -17,30 +17,74 @@ nav {
     ul {
       @include flexrow;
       padding: 1.5rem 0;
+
       li {
         margin-right: 2rem;
         position: relative;
+        &:hover {
+          .dropdownCont {
+            display: block;
+          }
+        }
         a {
           @include flexrow;
           font-size: 1.1rem;
           font-weight: 600;
           text-decoration: none;
-          color: $black;
-          transition: all 0.5s;
-
-          &:hover {
-            &::after {
-              content: "";
-              width: 100%;
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              border: 1px solid #2e2d2d;
-            }
-          }
-
+          color: $secondaryColor;
+          position: relative;
+          @include underlineEffect;
+          // &::after {
+          //   content: "";
+          //   position: absolute;
+          //   width: 0%;
+          //   left: 0;
+          //   bottom: -4px;
+          //   height: 4px;
+          //   background-color: transparent;
+          //   // border: 1px solid $mainColor;
+          //   transition: all ease 0.5s;
+          // }
+          // &:hover::after {
+          //   width: 100% !important;
+          //   background-color: $mainColor;
+          // }
           i {
             margin-left: 0.8rem;
+          }
+        }
+        .dropdownCont {
+          width: 250px;
+          text-align: center;
+          border: 1px solid $dark;
+          background-color: $white;
+          border-radius: 1rem;
+          padding: 1rem 1.5rem;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          // bottom: 10px;
+          top: 35px;
+          left: -15px;
+          display: none;
+          h3 {
+            margin: 0 auto;
+            margin-bottom: 1rem;
+          }
+          ul {
+            width: 100%;
+            // border: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding: 0;
+            text-align: left !important;
+            li {
+              width: 100%;
+              padding: 0.8rem 0;
+              display: flex;
+              justify-content: start;
+            }
           }
         }
       }

@@ -1,10 +1,19 @@
 .bestSellerSection {
   width: 100%;
-  // border: 1px solid #00ff00;
+  // border: 1px solid blue;
   padding-top: 6rem;
 
-  // #bestSeller {
-  //   // border: 1px solid #00ff00; 
-
-  // }
+  .productSliderCont {
+    width: 100%;
+    @include flexrow;
+    border: 1px solid #0400ff;
+    
+    .sliderCont {
+      padding: 2rem 0;
+      border: 1px solid $secondaryColor;
+      div{
+        margin: 0 auto;
+      }
+    }
+  }
 }

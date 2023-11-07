@@ -1,53 +1,64 @@
 .cartPage {
   width: 100%;
-  border: 1px solid red;
+  // border: 1px solid red;
 
   #cart {
-    height: 100vh;
-    border: 1px solid blue;
+    min-height: 80vh;
+    // border: 1px solid $dark;
     padding-top: 2rem;
 
-    .cartItemCont {
-      height: 90%;
-      padding-top: 1rem;
-      border: 1px solid blue;
-
-      .cartheading{
+    .emptyCartBox {
+      width: 100%;
+      margin-top: 2rem;
+      @include flexrow;
+      // flex-direction: column;
+      // border: 1px solid red;
+      iframe {
+        border: none;
+        outline: none;
         width: 100%;
-        height: 3rem;
-        border: 1px solid red;
-        @include flexrow;
-        justify-content: space-between;
+        min-height: 55vh;
       }
-      .cartBox {
-        width: 100%;
-        height: 12vh;
-        border: 1px solid lightgreen;
-        @include flexrow;
-        justify-content: space-between;
-        .itemBox{
-            width: 30%;
-            height: 100%;
-            border: 1px solid red;
-            display: flex;
-            align-items: center;
-            picture{
-                width: 25%;
-                height: 100%;
-                border: 1px solid red;
-                margin-right: 1rem;
-                img{
-                    // width: 100%;
-                    height: 100%;
-                }
-            }
+    }
+    .cartItemCont {
+      height: 100%;
+      padding-top: 1rem;
+      // border: 1px solid $dark;
+      display: flex;
+      justify-content: space-between;
+
+      .productItemCont {
+        width: 60%;
+        height: 100%;
+        // border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.8rem;
+      }
+
+      .cartTotal {
+        width: 35%;
+        height: 45vh;
+        border: 1px solid $dark;
+        padding: 2.5rem 2rem;
+        position: sticky;
+        top: 170px;
+
+        .totalPrice {
+          width: 100%;  
+          margin-bottom: 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h2 {
+            font-size: 2rem;
+          }
+          h3{
+            font-size: 1.5rem;
+          }
         }
-        .productDetailBox{
-            width: 75%;
-            height: 100%;
-            border: 1px solid blue;
-            @include flexrow;
-            justify-content: space-between;
+        p {
+          font-size: 1.1rem;
         }
       }
     }

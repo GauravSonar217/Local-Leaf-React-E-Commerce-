@@ -13,18 +13,21 @@ header {
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    // border: 1px solid red;
 
     .logoBox {
       cursor: pointer;
       // border: 1px solid blue;
+      @include flexrow;
       img {
-        width: 6.5rem;
+        width: 7rem;
+        border-radius: 0.5rem
       }
     }
     .searchBox {
       @include flexrow;
       border-radius: 2rem;
-      border: 1px solid #9b9999;
+      border: 2px solid $secondaryColor;
       margin-left: 8.5rem;
       // margin-right: 0.8rem;
       padding-left: 1rem;
@@ -35,7 +38,35 @@ header {
         border: none;
         outline: none;
         padding: 0.8rem 1rem;
+        // border: 1px solid $secondaryColor;
       }
-    } 
+    }
+    button {
+      position: relative;
+      transition: all ease 0.4s;
+      &:hover {
+        span {
+          border: 2px solid $secondaryColor;
+          background-color: $secondaryColor;
+          color: $mainColor;
+        }
+      }
+      p{
+        margin-left: 0.5rem;
+      }
+      span {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        @include flexrow;
+        background-color: $mainColor;
+        color: $secondaryColor;
+        // border: 2px solid #11ff00;
+        transition: all ease 0.4s;
+        position: absolute;
+        top: -16px;
+        right: -15px;
+      }
+    }
   }
 }

@@ -1,9 +1,11 @@
 .allProducts {
   width: 100%;
-  border: 1px solid red;
-  padding: 4rem 0;
+  // border: 1px solid red;
+  // padding: 3rem 0;
 
   #allProducts {
-    border: 1px solid blue;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    border: 1px solid $dark;
   }
 }
